@@ -35,7 +35,7 @@ The purpose of the solutions-symbology-data repository is to share, edit, and de
 
 * Build your own icons in the graphics editor of your choice. 
 * Save each symbol as a .svg (Scalable Vector Graphic). 
-* Run the .bat file to convert your symbols from .svg to .png
+* Run the .bat file in the command prompt to convert your symbols from .svg to .png.
 * Import each symbol into ArcMap as a picture graphic.
 * Save your new style file.
 * Upload your .svg files and your style file back to GitHub.
