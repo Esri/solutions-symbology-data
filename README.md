@@ -5,9 +5,9 @@ The purpose of the solutions-symbology-data repository is to share, edit, and de
 
 ![Image of repository-template](symbols.jpg)
 
-## ArcGIS Solutions Symbology
+## Features
 
-* SIGACTs- for the Incident Analysis Template
+* Source Symbology for the Incident Analysis Template
 * More to come
 
 ## Sections
@@ -21,9 +21,11 @@ The purpose of the solutions-symbology-data repository is to share, edit, and de
 
 ## Requirements
 
-* ArcGIS Desktop 10+
-* Inkscape
-* Graphics Editor of your choice
+* ArcGIS Desktop 10.0 (or later)
+    * If you wish to use the styles from this repository
+* If you wish to add to or otherwise modify this symbol set
+    * Scalable Vector Graphic (SVG/.svg) Editor of your choice
+    * Inkscape 0.48 (or later) - used to convert .svg files to .emf/.png
 
 ## Instructions
 
@@ -31,15 +33,34 @@ The purpose of the solutions-symbology-data repository is to share, edit, and de
 
 * [New to Github? Get started here.](http://htmlpreview.github.com/?https://github.com/Esri/esri.github.com/blob/master/help/esri-getting-to-know-github.html)
 
-### Getting Started
+### Using the Source Data
 
+* Download the repository
+* In ArcGIS Desktop,
+    * Use the Style Manager to add the desired style to ArcGIS Desktop.
+    * e.g. add style from solutions-symbology-data\data\incident-symbols.
+* You may also wish to update/copy the .style files from each source folder into your ArcGIS Desktop Style folder installation (if you wish to install these more permanently).
+ 
+### Modifying the Source Data
+   
 * Build your own icons in the graphics editor of your choice. 
-* Save each symbol as a .svg (Scalable Vector Graphic). 
+* Save each symbol as a SVG file (.svg). 
+* Ensure that the Inkscape SVG editor/converter is installed
+* Modify as necessary the [converter .bat command file](./solutions-symbology-data/tools/SVGtoPNG.bat)
+    * NOTE: you may need to this .bat file to
+    * Change the paths to Inkscape and the local data on your machine
+    * Change the desired export image width and height
+        * `--export-width=64 --export-height=64`
+        * Or remove these options to use the source image size properties (currently 18X18 pixels)
 * Run the .bat file in the command prompt to convert your symbols from .svg to .png.
-* Import each symbol into ArcMap as a picture graphic.
+* Import each symbol into ArcMap the desired style as a picture marker graphic.
 * Save your new style file.
-* Upload your .svg files and your style file back to GitHub.
+* (Optional) Make a Pull-Request to include your new/modified files.
 
+## Resources
+
+* [Incident Analysis Template](http://maritime-ops.maps.arcgis.com/home/item.html?id=fd6e2c3272c14826b9781e93580dacfe)
+* [Inkscape](www.inkscape.org)
 
 ## Issues
 
@@ -68,5 +89,5 @@ limitations under the License.
 A copy of the license is available in the repository's
 [license.txt](license.txt) file.
 
-[](Esri Tags: ArcGIS Defense Intelligence Situational Awareness Military)
+[](Esri Tags: ArcGIS Defense Intelligence Situational Awareness Military Symbology Incident Analysis Solutions)
 [](Esri Language: Python)

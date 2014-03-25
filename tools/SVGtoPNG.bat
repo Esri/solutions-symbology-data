@@ -10,4 +10,4 @@ SET source_folder=C:\git\solutions-symbology-data\data\incident-symbols\svgs
 SET destination_folder=C:\git\solutions-symbology-data\data\incident-symbols\pngs
 
 :: Use this option if you want to convert a folder and all subfolders (recursion) ...
-for /r "%source_folder%" %%i in (*.svg) do "%converter%" "%%i" --export-png="%destination_folder%\%%~ni.png"
+for /r "%source_folder%" %%i in (*.svg) do "%converter%" "%%i" --export-width=64 --export-height=64 --export-png="%destination_folder%\%%~ni.png"
