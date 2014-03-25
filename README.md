@@ -89,8 +89,8 @@ limitations under the License.
 A copy of the license is available in the repository's
 [license.txt](license.txt) file.
 
-"Falling" icon used from the [Noun Project by Andrea Novoa](http://www.thenounproject.com/Andiinnoo/)
-[Creative Commons Attribution 3.0](http://creativecommons.org/licenses/by/3.0/us/)
+"Falling" icon used from the [Noun Project by Andrea Novoa](http://www.thenounproject.com/Andiinnoo/) under the
+[Creative Commons Attribution 3.0](http://creativecommons.org/licenses/by/3.0/us/) license
 
 Thanks to the other designers for Public Domain Icons used from [The Noun Project](http://thenounproject.com/).
 
