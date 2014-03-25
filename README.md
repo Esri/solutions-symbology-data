@@ -46,8 +46,8 @@ The purpose of the solutions-symbology-data repository is to share, edit, and de
 * Build your own icons in the graphics editor of your choice. 
 * Save each symbol as a SVG file (.svg). 
 * Ensure that the Inkscape SVG editor/converter is installed
-* Modify as necessary the [converter .bat command file](./solutions-symbology-data/tools/SVGtoPNG.bat)
-    * NOTE: you may need to this .bat file to
+* Modify as necessary the [converter .bat command file](./tools/SVGtoPNG.bat)
+    * NOTE: you may need to change this .bat file to
     * Change the paths to Inkscape and the local data on your machine
     * Change the desired export image width and height
         * `--export-width=64 --export-height=64`
@@ -60,6 +60,7 @@ The purpose of the solutions-symbology-data repository is to share, edit, and de
 ## Resources
 
 * [Incident Analysis Template](http://maritime-ops.maps.arcgis.com/home/item.html?id=fd6e2c3272c14826b9781e93580dacfe)
+* [Source Data for Military Feature (2525 & APP) Symbology](https://github.com/Esri/military-features-data)
 * [Inkscape](www.inkscape.org)
 
 ## Issues
@@ -96,4 +97,4 @@ Thanks to the other designers for Public Domain Icons used from [The Noun Projec
 
 
 [](Esri Tags: ArcGIS Defense Intelligence Situational Awareness Military Symbology Incident Analysis Solutions)
-[](Esri Language: Python)
+[](Esri Language: XML)
