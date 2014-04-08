@@ -22,10 +22,9 @@ The purpose of the solutions-symbology-data repository is to share, edit, and de
 ## Requirements
 
 * ArcGIS Desktop 10.0 (or later)
-    * If you wish to use the styles from this repository
-* If you wish to add to or otherwise modify this symbol set
-    * Scalable Vector Graphic (SVG/.svg) Editor of your choice
-    * Inkscape 0.48 (or later) - used to convert .svg files to .emf/.png
+* If you wish to add to or modify this symbol set you will also need:
+    * Scalable Vector Graphic (SVG/.svg) editing software (for example, Inkscape)
+    * Inkscape 0.48 (or later) - used by batch script in this repoto convert .svg files to .emf/.png
 
 ## Instructions
 
@@ -36,24 +35,23 @@ The purpose of the solutions-symbology-data repository is to share, edit, and de
 ### Using the Source Data
 
 * Download the repository
-* In ArcGIS Desktop,
-    * Use the Style Manager to add the desired style to ArcGIS Desktop.
-    * e.g. add style from solutions-symbology-data\data\incident-symbols.
-* You may also wish to update/copy the .style files from each source folder into your ArcGIS Desktop Style folder installation (if you wish to install these more permanently).
+* In ArcGIS Desktop,use the Style Manager to add the desired style to ArcMap (add the style file from the solutions-symbology-data\data\incident-symbols.
+* You may also wish to copy the .style files from each of the repository source folders into your ArcGIS Desktop Style folder (if you wish to install these more permanently).
  
 ### Modifying the Source Data
    
 * Build your own icons in the graphics editor of your choice. 
 * Save each symbol as a SVG file (.svg). 
 * Ensure that the Inkscape SVG editor/converter is installed
-* Modify as necessary the [converter .bat command file](./tools/SVGtoPNG.bat)
+* Modify the [converter .bat command file](./tools/SVGtoPNG.bat)to reflect your local paths
     * NOTE: you may need to change this .bat file to
     * Change the paths to Inkscape and the local data on your machine
-    * Change the desired export image width and height
+    * Change the export image width and height
         * `--export-width=64 --export-height=64`
-        * Or remove these options to use the source image size properties (currently 18X18 pixels)
-* Run the .bat file in the command prompt to convert your symbols from .svg to .png.
-* Import each symbol into ArcMap the desired style as a picture marker graphic.
+        * Or remove these options to use the source image size properties (currently 18x18 pixels)
+* Run the .bat file in the command prompt to convert your symbols from .SVG to .PNG.
+* Create a new style in ArcMap using the Style Manager
+* Import each .PNG into ArcMap the desired style as a picture marker symbol.
 * Save your new style file.
 * (Optional) Make a Pull-Request to include your new/modified files.
 
