@@ -94,5 +94,5 @@ A copy of the license is available in the repository's
 Thanks to the other designers for Public Domain Icons used from [The Noun Project](http://thenounproject.com/).
 
 
-[](Esri Tags: ArcGIS Defense Intelligence Situational Awareness Military Symbology Incident Analysis Solutions)
+[](Esri Tags: ArcGIS Defense Intelligence Situational Awareness Military Symbology Incident Analysis Solutions ArcGISSolutions)
 [](Esri Language: XML)
