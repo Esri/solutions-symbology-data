@@ -7,8 +7,9 @@ The purpose of the solutions-symbology-data repository is to share, edit, and de
 
 ## Features
 
-* Source Symbology for the Incident Analysis Template
-* More to come
+* [Source Symbols and Styles for the Incident Analysis Template](./data/incident-symbols)
+* [Source Symbols and Styles for the Emergency Management Template](./data/emergency-management-symbols)
+* [Styles for the combined symbol sets](./data/solutions-symbology-combined)
 
 ## Sections
 
@@ -42,22 +43,29 @@ The purpose of the solutions-symbology-data repository is to share, edit, and de
    
 * Build your own icons in the graphics editor of your choice. 
 * Save each symbol as a SVG file (.svg). 
-* Ensure that the Inkscape SVG editor/converter is installed
-* Modify the [converter .bat command file](./tools/SVGtoPNG.bat)to reflect your local paths
-    * NOTE: you may need to change this .bat file to
-    * Change the paths to Inkscape and the local data on your machine
-    * Change the export image width and height
-        * `--export-width=64 --export-height=64`
-        * Or remove these options to use the source image size properties (currently 18x18 pixels)
-* Run the .bat file in the command prompt to convert your symbols from .SVG to .PNG.
+* Ensure that the [Inkscape SVG editor/converter](http://www.inkscape.org) is installed
+* Modify one of the [converter .bat command file](./tools) to reflect your local paths and desired settings
+    * [SVGtoPNG.bat](./tools/SVGtoPNG.bat) - if creating/importing raster symbology
+    * [SVGtoEMF.bat](./tools/SVGtoEMF.bat) - if creating/importing vector symbology
+    * NOTE: you will need to change this .bat file to
+        * Change the paths to Inkscape and the local data on your machine
+        * If using png/raster, you may want to also change the export image width and height
+            * `--export-width=64 --export-height=64`
+            * Or remove these options to use the source image size properties (currently 18x18 pixels)
+* Run the .bat file in the command prompt to convert your symbols from .SVG to .PNG (or .EMF).
 * Create a new style in ArcMap using the Style Manager
-* Import each .PNG into ArcMap the desired style as a picture marker symbol.
+* Using [a style import utility](https://github.com/williamscraigm/makiArcGISStyle) or ArcMap, import each graphic into the desired style as a picture marker symbol.
+    * Note the image sizes/types used in the current set of styles:
+    * 18 Point PNG for Incident Symbols
+    * 24 Point PNG for Emergency Management Symbols
+    * 32 Point EMF for the combined Solutions Symbol Set
 * Save your new style file.
 * (Optional) Make a Pull-Request to include your new/modified files.
 
 ## Resources
 
 * [Incident Analysis Template](http://maritime-ops.maps.arcgis.com/home/item.html?id=fd6e2c3272c14826b9781e93580dacfe)
+* [Blog post further explaining this repository/symbology](http://blogs.esri.com/esri/arcgis/2014/04/17/arcgis-solutions-symbols-now-have-a-repo-on-github/)
 * [Source Data for Military Feature (2525 & APP) Symbology](https://github.com/Esri/military-features-data)
 * [Inkscape](www.inkscape.org)
 
@@ -85,8 +93,7 @@ WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 See the License for the specific language governing permissions and
 limitations under the License.
 
-A copy of the license is available in the repository's
-[license.txt](license.txt) file.
+A copy of the license is available in the repository's [license.txt](license.txt) file.
 
 "Falling" icon used from the [Noun Project by Andrea Novoa](http://www.thenounproject.com/Andiinnoo/) under the
 [Creative Commons Attribution 3.0](http://creativecommons.org/licenses/by/3.0/us/) license
