@@ -16,6 +16,8 @@ This repo contains symbols designed to be used in ArcMap, ArcGIS Online, ArcGIS 
 In the repo there are three main folders: 
 
 
+
+
 - *Desktop symbols are optimized for editing and printed maps. (Coming soon)*
 
 
@@ -26,34 +28,17 @@ In the repo there are three main folders:
 
 Within those folders there are another set of folders categorized based on file types.
 
-**Note:** Not all main folders (desktop, mobile, web) contain all the folders described below. 
+**Note:** Not all main folders (desktop, mobile, web) contain all the folders described below.
 
-
-- EMF (Enhanced Metafile) 
-
-
-	- Symbols were designed to be used in ArcGIS Pro.
->
-
-- PNG (Portable Network Graphics) 
-
-
-	- Symbols were designed to be used in ArcGIS Online.
->
-
-- Style files (style & stylx) 
-
-
-	- Symbols stored within .style are PNG images that are designed to be used in ArcGIS 10.x.
-
-
-	- Symbols stored within .stylx are EMF & SVG images that are designed to be used in ArcGIS Pro.
-
-
-- SVG (Scaleable Vector Graphics) 
-
-
-	- Symbols were designed to be modified in vector editing software such as Inkscape. **Note:** Inkscape 0.48 (or later) - was used by batch script in this repo to convert .svg files to .emf/.png. Not all folders has all file type folders.
+* EMF (Enhanced Metafile)
+  *  Symbols were designed to be used in ArcGIS Pro. 
+* PNG (Portable Network Graphics)
+  * Symbols were designed to be used in ArcGIS Online.
+* Style files (style & stylx) 
+  * Symbols stored within .style are PNG images that are designed to be used in ArcGIS 10.x.
+  * Symbols stored within .stylx are EMF & SVG images that are designed to be used in ArcGIS Pro.
+* SVG (Scaleable Vector Graphics)
+  * Symbols were designed to be modified in vector editing software such as Inkscape. **Note:** Inkscape 0.48 (or later) was used by batch script in this repo to convert .svg files to .emf/.png. Not all folders has all file type folders. 
 
 The resources used to create the symbols have been acknowledged in the documentation folder.
 
