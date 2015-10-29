@@ -18,7 +18,7 @@ In the repo there are three main folders:
 
 
 
-- *Desktop symbols are optimized for editing and printed maps. (Coming soon)*
+- Desktop symbols are optimized for editing, basemaps and printed maps.
 
 
 - Mobile symbols are optimized for field maps.
