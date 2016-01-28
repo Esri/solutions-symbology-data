@@ -135,5 +135,5 @@ A copy of the license is available in the repository's [license.txt](license.txt
 Thanks to the other designers for Public Domain Icons used from [The Noun Project](http://thenounproject.com/).
 
 
-[](Esri Tags: ArcGIS Defense Intelligence Situational Awareness Military Symbology Incident Analysis Solutions ArcGISSolutions Local Government State Government Government Water Utilities Gas Electric Emergency Management)
+[](Esri Tags: ArcGIS Defense Intelligence Situational Awareness Military Symbology Incident Analysis Solutions ArcGISSolutions State-Government Local-Government State Local Government Water Utilities Gas Electric Emergency Management)
 [](Esri Language: XML)
