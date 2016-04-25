@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 16.0.3, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" id="Traffic_Checkpoint" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px"
+	 y="0px" width="34px" height="34px" viewBox="0 0 34 34" enable-background="new 0 0 34 34" xml:space="preserve">
+<circle fill="#FFFFFF" cx="17" cy="17" r="15"/>
+<path fill="#CFAD33" d="M17.001,30c-7.168,0-13-5.835-13-13.002C4.001,9.833,9.833,4,17.001,4c7.169,0,13,5.833,13,12.998
+	C30.001,24.165,24.17,30,17.001,30z"/>
+<path fill="#FED53F" d="M17.001,29C10.383,29,5,23.619,5,17c0-6.617,5.383-12,12.001-12C23.618,5,29,10.383,29,17
+	C29,23.619,23.618,29,17.001,29z"/>
+<g>
+	<path fill="#FFFFFF" d="M26,16c-0.501-4.445-4.368-8-9-8c-4.635,0-8.503,3.555-9,8H26z"/>
+	<path fill="#FFFFFF" d="M8,18c0.497,4.447,4.365,8,9,8c4.632,0,8.499-3.553,9-8H8z"/>
+</g>
+</svg>
