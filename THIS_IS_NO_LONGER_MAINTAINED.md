@@ -1,0 +1,1 @@
+#Mature Support As of January-2018 the Configurable Locator has moved to the Mature Lifecycle Phase. See the Readme.md for more details.
