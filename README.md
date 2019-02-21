@@ -1,7 +1,9 @@
 solutions-symbology-data
 ========================
 
-**NEW** - You can find new Emergency Management, Local Government, and State Government symbols in ArcGIS Online (see [New ArcGIS Online symbol sets (September 2017)](https://blogs.esri.com/esri/arcgis/2017/09/21/new-arcgis-online-symbol-sets/ "New ArcGIS Online symbol sets (September 2017") blog) and ArcGIS Pro style (see [New ArcGIS Pro style files](https://blogs.esri.com/esri/arcgis/2017/09/11/new-arcgis-pro-style-files-2/ "New ArcGIS Pro style files") blog).
+## *This repo is not longer maintained* ##
+
+ You can find Emergency Management, Local Government, and State Government symbols in ArcGIS Online, and [Government](https://esri-styles.maps.arcgis.com/home/item.html?id=a3109109c7114857809d70a230896934 "Government") and [Public Safety](https://esri-styles.maps.arcgis.com/home/item.html?id=b75a84b25d084eefadb87b57c50939f6 "Public Safety") ArcGIS Pro style in the Esri style organization.
 
 The purpose of the solutions-symbology-data repository is to share, edit, and develop symbols for the [ArcGIS Solutions](http://solutions.arcgis.com/ "ArcGIS Solutions") (Local and State Government, Emergency Management, Utilities, Military, Intelligence, Telecommunications, and Parks and Gardens).
 
